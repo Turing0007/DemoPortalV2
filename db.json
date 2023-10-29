@@ -1,0 +1,244 @@
+{
+	"BatchList": [
+    {
+        "BatchID": 1,
+        "BatchName": "Batch 001",
+        "AccountNumber": 46733,
+        "DocCount": 20,
+        "Datetime": "10/12/2023",
+        "Status": "Processed"
+    },
+    {
+        "BatchID": 2,
+        "BatchName": "Batch 002",
+        "AccountNumber": 46733,
+        "DocCount": 20,
+        "Datetime": "10/12/2023",
+        "Status": "Processed"
+    },
+    {
+        "BatchID": 3,
+        "BatchName": "Batch 003",
+        "AccountNumber": 46734,
+        "DocCount": 22,
+        "Datetime": "10/12/2023",
+        "Status": "Pending"
+    }
+],
+	"UserList": [
+    {
+        "UserID": 1,
+        "UserName": "Jsmith",
+        "Email": "james.Smith@test.com",
+        "FirstName": "James",
+        "LastName": "Smith",
+        "UserRole": "User",
+        "Customer": "Customer A",
+        "AccountAccess": "67343,67344",
+        "Lastlogiondate/time": "10/10/2023 15:23",
+        "Language": "GB English",
+        "ContactNo": "0044 7886373632"
+    },
+    {
+        "UserID": 2,
+        "UserName": "Jdoe",
+        "Email": "Jane.Doe@test.com",
+        "FirstName": "Jane",
+        "LastName": "Doe",
+        "UserRole": "User",
+        "Customer": "Customer B",
+        "AccountAccess": 67343,
+        "Lastlogiondate/time": "11/09/2022 13:34",
+        "Language": "GB English",
+        "ContactNo": "0044 7938432342"
+    },
+    {
+        "UserID": 3,
+        "UserName": "Jsmith",
+        "Email": "james.Smith@test123.com",
+        "FirstName": "James",
+        "LastName": "Smith",
+        "UserRole": "User",
+        "Customer": "Customer C",
+        "AccountAccess": "67343,67344",
+        "Lastlogiondate/time": "09/09/2023 12:11",
+        "Language": "GB English",
+        "ContactNo": "0044 1743338432"
+    },
+    {
+        "UserID": 4,
+        "UserName": "Jdoe",
+        "Email": "Jane.Doe@test123.com",
+        "FirstName": "Jane",
+        "LastName": "Doe",
+        "UserRole": "User",
+        "Customer": "Customer D",
+        "AccountAccess": 67344,
+        "Lastlogiondate/time": "07/10/2023 11:11",
+        "Language": "GB English",
+        "ContactNo": "0044 1628343234"
+    }
+],
+	"AccountDetails": [
+		{
+			"UserID": 1,
+			"AccountID": 1,
+			"AccountNumber": 67343,
+			"PrimaryRecipient": "Jsmith",
+			"PrimaryRecipientEmail": "james.Smith@test.com",
+			"InvoicePrint": 1,
+			"InvoiceEmail": 0,
+			"InvoicePush": 0,
+			"InvoicePushSingle": 0,
+			"InvoicePushMerge": 0,
+			"InvoiceDiscard": 0,
+			"CreditPrint": 0,
+			"CreditEmail": 1,
+			"CreditPush": 1,
+			"CreditPushSingle": 0,
+			"CreditPushMerge": 0,
+			"CreditDiscard": 0
+		},
+		{
+			"UserID": 2,
+			"AccountID": 1,
+			"AccountNumber": 67344,
+			"PrimaryRecipient": "Jdoe",
+			"PrimaryRecipientEmail": "Jane.Doe@test.com",
+			"InvoicePrint": 0,
+			"InvoiceEmail": 0,
+			"InvoicePush": 1,
+			"InvoicePushSingle": 0,
+			"InvoicePushMerge": 1,
+			"InvoiceDiscard": 0,
+			"CreditPrint": 0,
+			"CreditEmail": 0,
+			"CreditPush": 0,
+			"CreditPushSingle": 1,
+			"CreditPushMerge": 0,
+			"CreditDiscard": 0
+		},
+		{
+			"UserID": 1,
+			"AccountID": 2,
+			"AccountNumber": 67343,
+			"PrimaryRecipient": "Jsmith",
+			"PrimaryRecipientEmail": "james.Smith@test.com",
+			"InvoicePrint": 1,
+			"InvoiceEmail": 0,
+			"InvoicePush": 0,
+			"InvoicePushSingle": 0,
+			"InvoicePushMerge": 0,
+			"InvoiceDiscard": 0,
+			"CreditPrint": 0,
+			"CreditEmail": 1,
+			"CreditPush": 1,
+			"CreditPushSingle": 0,
+			"CreditPushMerge": 0,
+			"CreditDiscard": 0
+		},
+		{
+			"UserID": 2,
+			"AccountID": 2,
+			"AccountNumber": 67344,
+			"PrimaryRecipient": "Jdoe",
+			"PrimaryRecipientEmail": "Jane.Doe@test.com",
+			"InvoicePrint": 0,
+			"InvoiceEmail": 0,
+			"InvoicePush": 1,
+			"InvoicePushSingle": 0,
+			"InvoicePushMerge": 1,
+			"InvoiceDiscard": 0,
+			"CreditPrint": 0,
+			"CreditEmail": 0,
+			"CreditPush": 0,
+			"CreditPushSingle": 1,
+			"CreditPushMerge": 0,
+			"CreditDiscard": 0
+		}
+	],
+	"AccountList": [
+		{
+			"AccountID": 1,
+			"AccountName": "Account 1",
+			"SignupDate": "10/12/2022",
+			"AccountNumber": 67343,
+			"Status": "Active",
+			"AccountManager": "Triv Singh"
+		},
+		{
+			"AccountID": 2,
+			"AccountName": "Account 2",
+			"SignupDate": "15/12/2022",
+			"AccountNumber": 67344,
+			"Status": "Dormant",
+			"AccountManager": "James Hunt"
+		},
+		{
+			"AccountID": 3,
+			"AccountName": "Account 3",
+			"SignupDate": "12/10/2021",
+			"AccountNumber": 78934,
+			"Status": "Active",
+			"AccountManager": "Triv Singh"
+		}
+	],
+	"DocList": [
+		{
+			"DocID": 1,
+			"DocName": "DocID 00123",
+			"DocType": "PDF",
+			"DateCreated": "20/10/2023  23:12:11",
+			"DocSize": 23,
+			"SONo/DelNo.": 11,
+			"PONumber": "Po11",
+			"Customer": "CustA",
+			"WorkOrder": "WO01",
+			"Amount": 12943.23,
+			"AccountNumber": 67343,
+			"Unread": "Yes"
+		},
+		{
+			"DocID": 2,
+			"DocName": "DocID 99234",
+			"DocType": "PDF",
+			"DateCreated": "15/10/2022  10:15:22",
+			"DocSize": 34,
+			"SONo/DelNo.": 22,
+			"PONumber": "PO22",
+			"Customer": "CustB",
+			"WorkOrder": "WO02",
+			"Amount": 165.55,
+			"AccountNumber": 67343,
+			"Unread": "Yes"
+		},
+		{
+			"DocID": 3,
+			"DocName": "DocID 33232",
+			"DocType": "PDF",
+			"DateCreated": "12/10/2023 9:33",
+			"DocSize": 22,
+			"SONo/DelNo.": 33,
+			"PONumber": "Po33",
+			"Customer": "CustC",
+			"WorkOrder": "WO03",
+			"Amount": 456.12,
+			"AccountNumber": 67344,
+			"Unread": "No"
+		},
+		{
+			"DocID": 4,
+			"DocName": "DocID 23422",
+			"DocType": "PDF",
+			"DateCreated": "24/02/2022  10:12:22",
+			"DocSize": 120,
+			"SONo/DelNo.": 44,
+			"PONumber": "PO44",
+			"Customer": "CustD",
+			"WorkOrder": "WO04",
+			"Amount": 4568.4,
+			"AccountNumber": 67344,
+			"Unread": "No"
+		}
+	]
+}
