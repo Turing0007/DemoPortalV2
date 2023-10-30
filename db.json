@@ -1,84 +1,120 @@
 {
 	"BatchList": [
-    {
-        "BatchID": 1,
-        "BatchName": "Batch 001",
-        "AccountNumber": 46733,
-        "DocCount": 20,
-        "Datetime": "10/12/2023",
-        "Status": "Processed"
-    },
-    {
-        "BatchID": 2,
-        "BatchName": "Batch 002",
-        "AccountNumber": 46733,
-        "DocCount": 20,
-        "Datetime": "10/12/2023",
-        "Status": "Processed"
-    },
-    {
-        "BatchID": 3,
-        "BatchName": "Batch 003",
-        "AccountNumber": 46734,
-        "DocCount": 22,
-        "Datetime": "10/12/2023",
-        "Status": "Pending"
-    }
-],
+		{
+			"BatchID": 1,
+			"BatchName": "Batch 001",
+			"AccountNumber": 46733,
+			"DocCount": 20,
+			"Datetime": "10/12/2023",
+			"Status": "Processed"
+		},
+		{
+			"BatchID": 2,
+			"BatchName": "Batch 002",
+			"AccountNumber": 46733,
+			"DocCount": 20,
+			"Datetime": "10/12/2023",
+			"Status": "Processed"
+		},
+		{
+			"BatchID": 3,
+			"BatchName": "Batch 003",
+			"AccountNumber": 46734,
+			"DocCount": 22,
+			"Datetime": "10/12/2023",
+			"Status": "Pending"
+		}
+	],
 	"UserList": [
-    {
-        "UserID": 1,
-        "UserName": "Jsmith",
-        "Email": "james.Smith@test.com",
-        "FirstName": "James",
-        "LastName": "Smith",
-        "UserRole": "User",
-        "Customer": "Customer A",
-        "AccountAccess": "67343,67344",
-        "Lastlogiondate/time": "10/10/2023 15:23",
-        "Language": "GB English",
-        "ContactNo": "0044 7886373632"
-    },
-    {
-        "UserID": 2,
-        "UserName": "Jdoe",
-        "Email": "Jane.Doe@test.com",
-        "FirstName": "Jane",
-        "LastName": "Doe",
-        "UserRole": "User",
-        "Customer": "Customer B",
-        "AccountAccess": 67343,
-        "Lastlogiondate/time": "11/09/2022 13:34",
-        "Language": "GB English",
-        "ContactNo": "0044 7938432342"
-    },
-    {
-        "UserID": 3,
-        "UserName": "Jsmith",
-        "Email": "james.Smith@test123.com",
-        "FirstName": "James",
-        "LastName": "Smith",
-        "UserRole": "User",
-        "Customer": "Customer C",
-        "AccountAccess": "67343,67344",
-        "Lastlogiondate/time": "09/09/2023 12:11",
-        "Language": "GB English",
-        "ContactNo": "0044 1743338432"
-    },
-    {
-        "UserID": 4,
-        "UserName": "Jdoe",
-        "Email": "Jane.Doe@test123.com",
-        "FirstName": "Jane",
-        "LastName": "Doe",
-        "UserRole": "User",
-        "Customer": "Customer D",
-        "AccountAccess": 67344,
-        "Lastlogiondate/time": "07/10/2023 11:11",
-        "Language": "GB English",
-        "ContactNo": "0044 1628343234"
-    }
-],
+		{
+			"UserID": 1,
+			"UserName": "Jsmith",
+			"Email": "james.Smith@test.com",
+			"FirstName": "James",
+			"LastName": "Smith",
+			"UserRole": "User",
+			"Customer": "Customer A",
+			"Lastlogiondate/time": "10/10/2023 15:23",
+			"Language": "GB English",
+			"ContactNo": "0044 7886373632",
+			"AccountAccess": [
+				{
+					"AccountNumber": "67343",
+					"AccountID": 1
+				},
+				{
+					"AccountNumber": "67344",
+					"AccountID": 2
+				}
+			]
+		},
+		{
+			"UserID": 2,
+			"UserName": "Jdoe",
+			"Email": "Jane.Doe@test.com",
+			"FirstName": "Jane",
+			"LastName": "Doe",
+			"UserRole": "User",
+			"Customer": "Customer B",
+			"Lastlogiondate/time": "11/09/2022 13:34",
+			"Language": "GB English",
+			"ContactNo": "0044 7938432342",
+			"AccountAccess": [
+				{
+					"AccountNumber": "67343",
+					"AccountID": 1
+				},
+				{
+					"AccountNumber": "67344",
+					"AccountID": 2
+				}
+			]
+		},
+		{
+			"UserID": 3,
+			"UserName": "Jsmith",
+			"Email": "james.Smith@test123.com",
+			"FirstName": "James",
+			"LastName": "Smith",
+			"UserRole": "User",
+			"Customer": "Customer C",
+			"Lastlogiondate/time": "09/09/2023 12:11",
+			"Language": "GB English",
+			"ContactNo": "0044 1743338432",
+			"AccountAccess": [
+				{
+					"AccountNumber": "67343",
+					"AccountID": 1
+				},
+				{
+					"AccountNumber": "67344",
+					"AccountID": 2
+				}
+			]
+		},
+		{
+			"UserID": 4,
+			"UserName": "Jdoe",
+			"Email": "Jane.Doe@test123.com",
+			"FirstName": "Jane",
+			"LastName": "Doe",
+			"UserRole": "User",
+			"Customer": "Customer D",
+			"Lastlogiondate/time": "07/10/2023 11:11",
+			"Language": "GB English",
+			"ContactNo": "0044 1628343234",
+			"AccountAccess": [
+				{
+					"AccountNumber": "67343",
+					"AccountID": 1
+				},
+				{
+					"AccountNumber": "67344",
+					"AccountID": 2
+				}
+			]
+		}
+	],
 	"AccountDetails": [
 		{
 			"UserID": 1,
