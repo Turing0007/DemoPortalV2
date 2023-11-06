@@ -113,6 +113,28 @@
 					"AccountID": 2
 				}
 			]
+		},
+		{
+			"UserID": 4,
+			"UserName": "SShukla",
+			"Email": "Shiwali@test123.com",
+			"FirstName": "Shiwali",
+			"LastName": "Shukla",
+			"UserRole": "User",
+			"Customer": "Customer D",
+			"Lastlogiondate/time": "07/10/2023 11:11",
+			"Language": "GB English",
+			"ContactNo": "0044 1628343234",
+			"AccountAccess": [
+				{
+					"AccountNumber": "67343",
+					"AccountID": 1
+				},
+				{
+					"AccountNumber": "67344",
+					"AccountID": 2
+				}
+			]
 		}
 	],
 	"AccountDetails": [
